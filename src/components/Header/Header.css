@@ -1,0 +1,33 @@
+.header-container {
+    background-color: #1C2B35;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-container img {
+    width: 140px;
+    margin-left: 112px;
+
+}
+
+.header-nav {
+    display: flex;
+    gap: 32px;
+    margin-right: 100px;
+}
+
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    /* font-family: 'Lato'; */
+
+}
+
+.header-nav a:hover {
+    background-color: orangered;
+    border-radius: 5px;
+}
